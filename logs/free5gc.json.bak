@@ -1,0 +1,593 @@
+{
+    "group_nas_pair_statistics": [
+        {
+            "delay_ms": 0,
+            "fail": 1,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 34131.754,
+                    "max_ms": 183469.782,
+                    "mean_ms": 108323.737,
+                    "std_dev_ms": 41212.339
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 38.438,
+                    "max_ms": 386505.015,
+                    "mean_ms": 189242.040,
+                    "std_dev_ms": 111086.581
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 834.444,
+                    "max_ms": 184613.977,
+                    "mean_ms": 89794.361,
+                    "std_dev_ms": 52041.358
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 36956.120,
+                    "max_ms": 389368.959,
+                    "mean_ms": 212571.327,
+                    "std_dev_ms": 100342.101
+                }
+            ]
+        },
+        {
+            "delay_ms": 50,
+            "fail": 1,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 24011.522,
+                    "max_ms": 184235.180,
+                    "mean_ms": 112996.526,
+                    "std_dev_ms": 38311.168
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 27.862,
+                    "max_ms": 381659.545,
+                    "mean_ms": 186851.668,
+                    "std_dev_ms": 109051.101
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 742.298,
+                    "max_ms": 185825.701,
+                    "mean_ms": 89759.961,
+                    "std_dev_ms": 52130.139
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 46347.385,
+                    "max_ms": 384976.107,
+                    "mean_ms": 212966.457,
+                    "std_dev_ms": 95827.570
+                }
+            ]
+        },
+        {
+            "delay_ms": 100,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 13644.760,
+                    "max_ms": 189176.953,
+                    "mean_ms": 118173.652,
+                    "std_dev_ms": 36376.691
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 27.470,
+                    "max_ms": 373854.697,
+                    "mean_ms": 184772.643,
+                    "std_dev_ms": 106688.080
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 935.068,
+                    "max_ms": 188809.939,
+                    "mean_ms": 90092.372,
+                    "std_dev_ms": 52367.126
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 57466.605,
+                    "max_ms": 378027.146,
+                    "mean_ms": 211964.902,
+                    "std_dev_ms": 90828.082
+                }
+            ]
+        },
+        {
+            "delay_ms": 200,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 7597.438,
+                    "max_ms": 200080.102,
+                    "mean_ms": 130211.977,
+                    "std_dev_ms": 37526.303
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 41.329,
+                    "max_ms": 391639.060,
+                    "mean_ms": 191845.719,
+                    "std_dev_ms": 110117.784
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 907.772,
+                    "max_ms": 200966.785,
+                    "mean_ms": 94919.501,
+                    "std_dev_ms": 55365.575
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 73409.204,
+                    "max_ms": 394951.225,
+                    "mean_ms": 223225.322,
+                    "std_dev_ms": 90386.491
+                }
+            ]
+        },
+        {
+            "delay_ms": 500,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 1806.540,
+                    "max_ms": 193328.937,
+                    "mean_ms": 133237.615,
+                    "std_dev_ms": 40477.447
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 27.481,
+                    "max_ms": 344673.014,
+                    "mean_ms": 172814.993,
+                    "std_dev_ms": 93786.194
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 822.032,
+                    "max_ms": 194760.693,
+                    "mean_ms": 93720.894,
+                    "std_dev_ms": 54746.249
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 12230.841,
+                    "max_ms": 349617.915,
+                    "mean_ms": 204626.096,
+                    "std_dev_ms": 72694.734
+                }
+            ]
+        },
+        {
+            "delay_ms": 800,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 1230.327,
+                    "max_ms": 186426.138,
+                    "mean_ms": 129596.433,
+                    "std_dev_ms": 41819.174
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 22.347,
+                    "max_ms": 310448.749,
+                    "mean_ms": 159995.034,
+                    "std_dev_ms": 83224.422
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 1087.023,
+                    "max_ms": 186271.787,
+                    "mean_ms": 91212.296,
+                    "std_dev_ms": 51832.853
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 8390.302,
+                    "max_ms": 314085.780,
+                    "mean_ms": 189505.423,
+                    "std_dev_ms": 63996.712
+                }
+            ]
+        },
+        {
+            "delay_ms": 1000,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 730.434,
+                    "max_ms": 191354.490,
+                    "mean_ms": 127494.418,
+                    "std_dev_ms": 44440.109
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 23.390,
+                    "max_ms": 279278.654,
+                    "mean_ms": 146293.895,
+                    "std_dev_ms": 73766.196
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 860.102,
+                    "max_ms": 189932.385,
+                    "mean_ms": 87222.146,
+                    "std_dev_ms": 49798.913
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 6195.221,
+                    "max_ms": 283036.150,
+                    "mean_ms": 176036.552,
+                    "std_dev_ms": 55193.943
+                }
+            ]
+        },
+        {
+            "delay_ms": 1500,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 157.815,
+                    "max_ms": 185445.514,
+                    "mean_ms": 121379.363,
+                    "std_dev_ms": 49021.787
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 27.356,
+                    "max_ms": 246155.325,
+                    "mean_ms": 132857.586,
+                    "std_dev_ms": 63663.736
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 824.432,
+                    "max_ms": 188884.318,
+                    "mean_ms": 88281.886,
+                    "std_dev_ms": 51727.001
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 4467.708,
+                    "max_ms": 250345.083,
+                    "mean_ms": 157638.310,
+                    "std_dev_ms": 50551.528
+                }
+            ]
+        },
+        {
+            "delay_ms": 2000,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 121.784,
+                    "max_ms": 183190.400,
+                    "mean_ms": 111909.830,
+                    "std_dev_ms": 49228.220
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 19.703,
+                    "max_ms": 221486.272,
+                    "mean_ms": 118071.633,
+                    "std_dev_ms": 56019.981
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 901.664,
+                    "max_ms": 182602.002,
+                    "mean_ms": 84338.001,
+                    "std_dev_ms": 49107.525
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 4118.676,
+                    "max_ms": 226505.093,
+                    "mean_ms": 139378.662,
+                    "std_dev_ms": 47410.648
+                }
+            ]
+        },
+        {
+            "delay_ms": 3000,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 204.361,
+                    "max_ms": 165751.359,
+                    "mean_ms": 92959.040,
+                    "std_dev_ms": 45581.429
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 12.873,
+                    "max_ms": 162441.177,
+                    "mean_ms": 94823.971,
+                    "std_dev_ms": 45646.677
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 1127.942,
+                    "max_ms": 165133.384,
+                    "mean_ms": 76206.927,
+                    "std_dev_ms": 44389.509
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 2972.580,
+                    "max_ms": 167491.491,
+                    "mean_ms": 109637.976,
+                    "std_dev_ms": 42187.726
+                }
+            ]
+        },
+        {
+            "delay_ms": 4000,
+            "pairs": [
+                {
+                    "request": "AuthenticationResponse",
+                    "response": "SecurityModeCommand",
+                    "min_ms": 265.222,
+                    "max_ms": 127139.606,
+                    "mean_ms": 67386.189,
+                    "std_dev_ms": 35922.948
+                },
+                {
+                    "request": "ConfigurationUpdateComplete",
+                    "response": "Unknown",
+                    "min_ms": 0.0,
+                    "max_ms": 0.0,
+                    "mean_ms": 0.0,
+                    "std_dev_ms": 0.0
+                },
+                {
+                    "request": "RegistrationComplete",
+                    "response": "ConfigurationUpdateCommand",
+                    "min_ms": 9.494,
+                    "max_ms": 128607.968,
+                    "mean_ms": 67632.157,
+                    "std_dev_ms": 34499.537
+                },
+                {
+                    "request": "RegistrationRequest",
+                    "response": "AuthenticationRequest",
+                    "min_ms": 1201.412,
+                    "max_ms": 130384.051,
+                    "mean_ms": 59447.159,
+                    "std_dev_ms": 34330.862
+                },
+                {
+                    "request": "SecurityModeComplete",
+                    "response": "RegistrationAccept",
+                    "min_ms": 3389.751,
+                    "max_ms": 130559.738,
+                    "mean_ms": 77289.833,
+                    "std_dev_ms": 33746.753
+                },
+                {
+                    "request": "Unknown",
+                    "response": "RegistrationReject",
+                    "min_ms": 59974.122,
+                    "max_ms": 59974.122,
+                    "mean_ms": 59974.122,
+                    "std_dev_ms": 0.0
+                }
+            ]
+        }
+    ],
+    "group_procedure_statistics": [
+        {
+            "delay_ms": 0,
+            "fail": 1,
+            "procedure": "registration",
+            "min_ms": 211919.412,
+            "max_ms": 605492.841,
+            "mean_ms": 410687.923,
+            "std_dev_ms": 111213.443
+        },
+        {
+            "delay_ms": 50,
+            "fail": 1,
+            "procedure": "registration",
+            "min_ms": 191631.971,
+            "max_ms": 609971.256,
+            "mean_ms": 415723.055,
+            "std_dev_ms": 111767.282
+        },
+        {
+            "delay_ms": 100,
+            "procedure": "registration",
+            "min_ms": 191014.785,
+            "max_ms": 614926.351,
+            "mean_ms": 420231.034,
+            "std_dev_ms": 112490.303
+        },
+        {
+            "delay_ms": 200,
+            "procedure": "registration",
+            "min_ms": 92242.403,
+            "max_ms": 656399.072,
+            "mean_ms": 448356.902,
+            "std_dev_ms": 121805.882
+        },
+        {
+            "delay_ms": 500,
+            "procedure": "registration",
+            "min_ms": 14859.588,
+            "max_ms": 634345.001,
+            "mean_ms": 431584.721,
+            "std_dev_ms": 129265.025
+        },
+        {
+            "delay_ms": 800,
+            "procedure": "registration",
+            "min_ms": 11443.608,
+            "max_ms": 606075.206,
+            "mean_ms": 410314.276,
+            "std_dev_ms": 133492.280
+        },
+        {
+            "delay_ms": 1000,
+            "procedure": "registration",
+            "min_ms": 8915.928,
+            "max_ms": 576858.274,
+            "mean_ms": 390753.241,
+            "std_dev_ms": 131734.006
+        },
+        {
+            "delay_ms": 1500,
+            "procedure": "registration",
+            "min_ms": 5778.392,
+            "max_ms": 550368.285,
+            "mean_ms": 367299.685,
+            "std_dev_ms": 137343.408
+        },
+        {
+            "delay_ms": 2000,
+            "procedure": "registration",
+            "min_ms": 5984.113,
+            "max_ms": 505022.763,
+            "mean_ms": 335626.607,
+            "std_dev_ms": 135233.231
+        },
+        {
+            "delay_ms": 3000,
+            "procedure": "registration",
+            "min_ms": 5389.468,
+            "max_ms": 424807.446,
+            "mean_ms": 278804.070,
+            "std_dev_ms": 124652.953
+        },
+        {
+            "delay_ms": 4000,
+            "procedure": "registration",
+            "min_ms": 5720.479,
+            "max_ms": 322133.795,
+            "mean_ms": 204133.095,
+            "std_dev_ms": 99985.300
+        }
+    ]
+}

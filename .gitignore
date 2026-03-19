@@ -1,0 +1,11 @@
+*.log
+# logs/*
+*pcap
+stormsim
+.cursor
+.env
+bin
+.venv
+flake.lock
+.direnv
+OTHER_FUZZ
