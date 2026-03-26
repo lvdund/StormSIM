@@ -1,0 +1,60 @@
+gnodeb:
+  controlif:
+    ip: "10.0.0.13"
+    port: 9487
+  dataif:
+    ip: "10.0.0.13"
+    port: 2152
+  listGnbs: # for handover: need more than 1 gnb
+    - gnbid: "000001" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "001"
+        mnc: "01"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000002" # gnb 2
+      tac: "000001"
+      plmn:
+        mcc: "001"
+        mnc: "01"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+defaultUe:
+  msin: "0000000000"
+  key: fff24a5ea1af6c81fa2dc78031534214
+  opc: f577902e99b5f7b74a6af8232505470d
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+  routingindicator: "0000"
+  hplmn:
+    mcc: "001"
+    mnc: "01"
+  snssai:
+    sst: 01
+    sd: "010203" 
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+  delay: 0 # set delay of assign event to each ue in 1 group (milisecond)
+amfif:
+  - ip: "10.0.0.12"
+    port: 38412
+scenarios:
+  - nUEs: 100
+    gnbs:
+      - "000001"
+    ueEvents:
+      - event: "RegisterInit Event"
+      - event: "PduSessionInit Event"
+loglevel: warn # info, trace, debug, warn, error, fatal, panic

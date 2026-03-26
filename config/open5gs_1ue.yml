@@ -1,0 +1,103 @@
+gnodeb:
+  controlif:
+    ip: "192.168.1.10"
+    port: 9488
+  dataif:
+    ip: "192.168.1.10"
+    port: 2153
+  listGnbs: # for handover: need more than 1 gnb
+    - gnbid: "000001" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "999"
+        mnc: "70"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000002" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "999"
+        mnc: "70"
+      slicesupportlist:
+        - sst: "01"
+defaultUe:
+  msin: "0000000000"
+  key: "465B5CE8B199B49FAA5F0A2EE238A6BC"
+  opc: "E8ED289DEBA952E4283B54E88E6183CA"
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+
+  # In 5G, the UE's identity to the AMF as a SUCI (Subscription Concealed Identifier)
+  # suci-<mobile-country-code>-<mobile-network-code>-<routing-indicator>-<protection-mode>-<home-network-public-key-id>-<scheme-output>
+  # With default configuration, SUCI sent to AMF will be suci-0-999-70-0000-0-0-0000000120
+  #
+  # SUCI Protection Scheme: 0 - Null-scheme, 1 - Profile A, 2 - Profile B
+  protectionScheme: "0"
+  #
+  # SUCI Routing Indicator allows the AMF to route the UE to the correct UDM
+  routingindicator: "0000"
+  #
+  # Home Network Public Key
+  # If Null-Scheme configuration -> homeNetworkPublicKey = ""
+  homeNetworkPublicKey: "5a8d38864820197c3394b92613b20b91633cbd897119273bf8e4a6f4eec0a650"
+  #
+  # Home Network Public Key ID
+  # If Null-Scheme configuration -> homeNetworkPublicKeyID = 0
+  homeNetworkPublicKeyID: "1"
+
+  hplmn:
+    mcc: "999"
+    mnc: "70"
+  snssai:
+    sst: 01
+    # sd: "010203" 
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+amfif:
+  - ip: "192.168.1.15"
+    port: 38412
+scenarios:
+  - nUEs: 1 # 1
+    gnbs:
+      - "000001"
+      - "000002"
+    ueEvents:
+      - event: "RegisterInit Event"
+      - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 3
+      # - event: "XnHandover Event"
+      # - event: "XnHandover Event"
+remote:
+  enable: false
+  ip: "0.0.0.0"
+  port: 4000
+testconf:
+  enableFuzz: false
+  5gmm:
+    states:
+    - "Registered State"
+    - "Deregisterd State"
+    events:
+    - "RegisterInit Event"
+    - "DeregistraterInit Event"
+    - "RegistrationAcceptEvent Event"
+    - "DeregistrationAcceptEvent Event"
+  5gsm:
+    states:
+    - "PDUSessionActive State"
+    - "PDUSessionInactive State"
+    events:
+    - "PduSessionInit Event"
+    - "EstablishmentAccept Event"
+    - "DestroyPduSession Event"
+loglevel: info # info, trace, debug, warn, error, fatal, panic

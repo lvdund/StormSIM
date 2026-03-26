@@ -1,0 +1,66 @@
+gnodeb:
+  controlif:
+    ip: "127.0.0.20"
+    port: 9487
+  dataif:
+    ip: "127.0.0.20"
+    port: 2152
+  listGnbs: # for handover: need more than 1 gnb
+    - gnbid: "000008" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000009" # gnb 2
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+defaultUe:
+  msin: "0000000000"
+  key: "14b23ceb27e95eb732a3f9d602f551c4"
+  opc: "a3e3c63de23b66dc6a8ae0272b44906c"
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+  routingindicator: "0000"
+  hplmn:
+    mcc: "208"
+    mnc: "93"
+  snssai:
+    sst: 01
+    sd: "010203" 
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+amfif:
+  - ip: "127.0.0.8"
+    port: 38412
+scenarios:
+  - nUEs: 1
+    gnbs:
+      - "000008"
+    ueEvents:
+      - event: "RegisterInit Event"
+        delay: 0
+        register_type: 0
+      - event: "PduSessionInit Event"
+        delay: 0
+remote:
+  enable: true
+  ip: "0.0.0.0"
+  port: 4000
+loglevel: info # info, trace, debug, warn, error, fatal, panic

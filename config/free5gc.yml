@@ -1,0 +1,831 @@
+gnodeb:
+  controlif:
+    ip: "192.168.1.10"
+    port: 9487
+  dataif:
+    ip: "192.168.1.10"
+    port: 2152
+  listGnbs: # for handover: need more than 1 gnb
+    - gnbid: "000001" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000002" # gnb 2
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000003" # gnb 3
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000004" # gnb 4
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000005" # gnb 5
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000006" # gnb 6
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000007" # gnb 7
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000008" # gnb 8
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000009" # gnb 9
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000010" # gnb 10
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000011" # gnb 11
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000012" # gnb 12
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000013" # gnb 13
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000014" # gnb 14
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000015" # gnb 15
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000016" # gnb 16
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000017" # gnb 17
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000018" # gnb 18
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000019" # gnb 19
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000020" # gnb 20
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000021" # gnb 21
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000022" # gnb 22
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000023" # gnb 23
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000024" # gnb 24
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000025" # gnb 25
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000026" # gnb 26
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000027" # gnb 27
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000028" # gnb 28
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000029" # gnb 29
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000030" # gnb 30
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000031" # gnb 31
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000032" # gnb 32
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000033" # gnb 33
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000034" # gnb 34
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000035" # gnb 35
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000036" # gnb 36
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000037" # gnb 37
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000038" # gnb 38
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000039" # gnb 39
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000040" # gnb 40
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000041" # gnb 41
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000042" # gnb 42
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000043" # gnb 43
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000044" # gnb 44
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000045" # gnb 45
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000046" # gnb 46
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000047" # gnb 47
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000048" # gnb 48
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000049" # gnb 49
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000050" # gnb 50
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+defaultUe:
+  msin: "0000000000"
+  key: "8baf473f2f8fd09487cccbd7097c6862"
+  op: "8e27b6af0e692e750f32667a3b14605d"
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+  routingindicator: "0000"
+  hplmn:
+    mcc: "208"
+    mnc: "93"
+  snssai:
+    sst: 01
+    sd: "010203" 
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+  delay: 3000 # set delay of assign event to each ue in 1 group (milisecond)
+amfif:
+  - ip: "192.168.1.15"
+    port: 38412
+scenarios:
+  - nUEs: 100 # 1
+    gnbs:
+      - "000001"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 2
+    gnbs:
+      - "000002"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 3
+    gnbs:
+      - "000003"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 4
+    gnbs:
+      - "000004"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 5
+    gnbs:
+      - "000005"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 6
+    gnbs:
+      - "000006"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 7
+    gnbs:
+      - "000007"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 8
+    gnbs:
+      - "000008"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 9
+    gnbs:
+      - "000009"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 10
+    gnbs:
+      - "000010"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 11
+    gnbs:
+      - "000011"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 12
+    gnbs:
+      - "000012"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 13
+    gnbs:
+      - "000013"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 14
+    gnbs:
+      - "000014"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 15
+    gnbs:
+      - "000015"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 16
+    gnbs:
+      - "000016"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 17
+    gnbs:
+      - "000017"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 18
+    gnbs:
+      - "000018"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 19
+    gnbs:
+      - "000019"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 20
+    gnbs:
+      - "000020"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 21
+    gnbs:
+      - "000021"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 22
+    gnbs:
+      - "000022"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 23
+    gnbs:
+      - "000023"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 24
+    gnbs:
+      - "000024"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 25
+    gnbs:
+      - "000025"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 26
+    gnbs:
+      - "000026"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 27
+    gnbs:
+      - "000027"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 28
+    gnbs:
+      - "000028"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 29
+    gnbs:
+      - "000029"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 30
+    gnbs:
+      - "000030"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 31
+    gnbs:
+      - "000031"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 32
+    gnbs:
+      - "000032"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 33
+    gnbs:
+      - "000033"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 34
+    gnbs:
+      - "000034"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 35
+    gnbs:
+      - "000035"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 36
+    gnbs:
+      - "000036"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 37
+    gnbs:
+      - "000037"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 38
+    gnbs:
+      - "000038"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 39
+    gnbs:
+      - "000039"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 40
+    gnbs:
+      - "000040"
+    ueEvents:
+      - event: "RegisterInit Event"
+      # - event: "PduSessionInit Event"
+      # - event: "XnHandover Event"
+      #   delay: 10
+  - nUEs: 100 # 41
+    gnbs:
+      - "000041"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 42
+    gnbs:
+      - "000042"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 43
+    gnbs:
+      - "000043"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 44
+    gnbs:
+      - "000044"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 45
+    gnbs:
+      - "000045"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 46
+    gnbs:
+      - "000046"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 47
+    gnbs:
+      - "000047"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 48
+    gnbs:
+      - "000048"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 49
+    gnbs:
+      - "000049"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 100 # 50
+    gnbs:
+      - "000050"
+    ueEvents:
+      - event: "RegisterInit Event"
+remote:
+  enable: true
+  ip: "0.0.0.0"
+  port: 4000
+testconf:
+  enableFuzz: false
+  5gmm:
+    states:
+    - "Registered State"
+    - "Deregisterd State"
+    events:
+    - "RegisterInit Event"
+    - "DeregistraterInit Event"
+    - "RegistrationAcceptEvent Event"
+    - "DeregistrationAcceptEvent Event"
+  5gsm:
+    states:
+    - "PDUSessionActive State"
+    - "PDUSessionInactive State"
+    events:
+    - "PduSessionInit Event"
+    - "EstablishmentAccept Event"
+    - "DestroyPduSession Event"
+loglevel: error # info, trace, debug, warn, error, fatal, panic
