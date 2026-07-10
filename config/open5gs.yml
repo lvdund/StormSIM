@@ -1,0 +1,298 @@
+gnodeb:
+  controlif:
+    ip: "192.168.1.10"
+    port: 9487
+  dataif:
+    ip: "192.168.1.10"
+    port: 2152
+  listGnbs:
+    - gnbid: "000001" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000002" # gnb 2
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000003" # gnb 3
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000004" # gnb 4
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000005" # gnb 5
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000006" # gnb 6
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000007" # gnb 7
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000008" # gnb 8
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000009" # gnb 9
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000010" # gnb 10
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000011" # gnb 11
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000012" # gnb 12
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000013" # gnb 13
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000014" # gnb 14
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000015" # gnb 15
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000016" # gnb 16
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000017" # gnb 17
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000018" # gnb 18
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000019" # gnb 19
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+    - gnbid: "000020" # gnb 20
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+defaultUe:
+  msin: "0000000000"
+  key: "465B5CE8B199B49FAA5F0A2EE238A6BC"
+  op: "E8ED289DEBA952E4283B54E88E6183CA"
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+  routingindicator: "0000"
+  hplmn:
+    mcc: "208"
+    mnc: "93"
+  snssai:
+    sst: 01
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+  timers:
+    t3510: false
+    t3511: false
+    t3502: false
+    t3512: false
+    t3516: false
+    t3519: false
+    t3520: false
+    t3580: false
+    t3582: false
+  delay: 0 # set delay of assign event to each ue in 1 group (milisecond)
+rlink:
+  delay_ms: 1000 # Max random delay in milliseconds (0 = disabled, e.g., 50 = random 0–50ms)
+  loss_ratio: 0.0 # Probability of dropping a NAS message (0.0 = no loss, 0.05 = 5% loss)
+amfif:
+  - ip: "192.168.1.110"
+    port: 38412
+scenarios:
+  - nUEs: 140
+    gnbs:
+      - "000001"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000002"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000003"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000004"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000005"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000006"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000007"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000008"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000009"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000010"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000011"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000012"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000013"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000014"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000015"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000016"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000017"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000018"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000019"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 140
+    gnbs:
+      - "000020"
+    ueEvents:
+      - event: "RegisterInit Event"
+remote:
+  enable: true
+  ip: "0.0.0.0"
+  port: 4000
+loglevel: error # info, trace, debug, warn, error, fatal, panic
+logging:
+  bufferlog: false
+  ueLogBufferSize: 256
+  gnbLogBufferSize: 256

@@ -1,0 +1,16 @@
+*.log
+# logs/*
+*pcap
+stormsim
+.cursor
+.env
+bin
+.venv
+flake.lock
+.direnv
+OTHER_FUZZ
+.codex
+.agent
+.opencode
+*.csv
+*AGENTS.md

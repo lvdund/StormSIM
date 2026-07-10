@@ -1,0 +1,13 @@
+services:
+  emulator:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: stormsim-emulator
+    privileged: true
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ../config:/app/config:ro
+      - ../docker:/app/docker
+    command: ["emulator", "-c", "/app/config/config.yml"]

@@ -1,0 +1,117 @@
+gnodeb:
+  controlif:
+    ip: "192.168.1.10"
+    port: 9487
+  dataif:
+    ip: "192.168.1.10"
+    port: 2152
+  listGnbs: # for handover: need more than 1 gnb
+    - gnbid: "000001" # gnb 1
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000002" # gnb 2
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000003" # gnb 3
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000004" # gnb 4
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+    - gnbid: "000005" # gnb 5
+      tac: "000001"
+      plmn:
+        mcc: "208"
+        mnc: "93"
+      slicesupportlist:
+        - sst: "01"
+          sd: "010203"
+defaultUe:
+  msin: "0000000000"
+  key: "8baf473f2f8fd09487cccbd7097c6862"
+  op: "8e27b6af0e692e750f32667a3b14605d"
+  amf: "8000"
+  sqn: "00000000"
+  dnn: "internet"
+  routingindicator: "0000"
+  hplmn:
+    mcc: "208"
+    mnc: "93"
+  snssai:
+    sst: 01
+    sd: "010203"
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+  timers:
+    t3510: true
+    t3511: true
+    t3502: true
+    t3512: false
+    t3516: false
+    t3519: false
+    t3520: false
+    t3580: false
+    t3582: false
+  delay: 100 # set delay of assign event to each ue in 1 group (milisecond)
+rlink:
+  delay_ms: 1000 # Max random delay in milliseconds (0 = disabled, e.g., 50 = random 0–50ms)
+  loss_ratio: 0.05 # Probability of dropping a NAS message (0.0 = no loss, 0.05 = 5% loss)
+amfif:
+  - ip: "192.168.1.110"
+    port: 38412
+scenarios:
+  - nUEs: 200
+    gnbs:
+      - "000001"
+      - "000002"
+    ueEvents:
+      - event: "RegisterInit Event"
+      - event: "PduSessionInit Event"
+      - event: "XnHandover Event"
+  - nUEs: 250
+    gnbs:
+      - "000004"
+    ueEvents:
+      - event: "RegisterInit Event"
+  - nUEs: 150
+    gnbs:
+      - "000005"
+    ueEvents:
+      - event: "RegisterInit Event"
+remote:
+  enable: true
+  ip: "0.0.0.0"
+  port: 4000
+logging:
+  bufferlog: false
+  ueLogBufferSize: 256
+  gnbLogBufferSize: 256
+loglevel: error # info, trace, debug, warn, error, fatal, panic
